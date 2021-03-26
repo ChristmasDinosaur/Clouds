@@ -1,0 +1,42 @@
+#rain {
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#rainvideo {
+    opacity: 1;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    margin: auto;
+}
+
+.rain-header {
+    display:flex;
+    color: rgb(69, 151, 206);
+    font-size: 5rem;
+    font-family: 'Condiment', cursive;
+    padding-top: 15rem;
+    padding-bottom: 7rem
+}
+
+.rain-text {
+    width: 80%;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.rain-paragraph {
+    color: black;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 8rem;
+}

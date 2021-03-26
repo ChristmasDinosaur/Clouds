@@ -1,0 +1,80 @@
+main-head{
+    background: #131c27;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    list-style: none;
+}
+
+nav {
+    min-height: 10vh;
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(112, 112, 112);
+    color: white;
+    list-style: none;
+
+nav ul, li {
+    align-items: center;
+    padding: 1rem 7rem;
+    justify-content: space-between;
+    display: inline-flex;
+    list-style: none;
+    font-size: 2rem;
+}}
+
+.hero {
+    min-height: 90vh;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+#openingvideo {
+    position: fixed;
+    z-index: -1;
+    opacity: 1;  
+}
+
+h2 {
+    font-size: 7rem;
+    font-family: 'Patua One', cursive;
+    color: white;
+}}
+
+@media screen and (max-width:758px) {
+    nav li {
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 1rem;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:447px) {
+    nav li {
+        align-items: center;
+        justify-content: space-evenly;
+        padding-inline: 2rem;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    nav li {
+        padding-inline: 0.5rem;
+        justify-content: space-around;
+    }
+}
